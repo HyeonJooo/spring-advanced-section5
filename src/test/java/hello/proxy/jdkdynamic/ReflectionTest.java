@@ -47,7 +47,7 @@ public class ReflectionTest {
 		Class<?> classHello = Class.forName("hello.proxy.jdkdynamic.ReflectionTest$Hello");
 		Hello target = new Hello();
 
-		//callA 메서드 정보 
+		//callA 메서드 정보
 		Method methodCallA = classHello.getMethod("callA");
 		dynamicCall(methodCallA, target);
 
