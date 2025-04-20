@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class BImpl implements BInterface {
 	@Override
-	public String callB() {
+	public String call() {
 		log.info("callB");
 		return "b";
 	}

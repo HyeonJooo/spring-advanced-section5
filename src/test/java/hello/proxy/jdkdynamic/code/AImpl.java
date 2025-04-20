@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class AImpl implements AInterface {
 	@Override
-	public String callA() {
+	public String call() {
 		log.info("callA");
 		return "a";
 	}
